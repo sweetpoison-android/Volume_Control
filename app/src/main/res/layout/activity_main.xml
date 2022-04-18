@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/mainactivity">
+1
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjust Alarm Valume"
+        android:id="@+id/maintextview1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainseekbar1"
+        android:layout_below="@id/maintextview1"
+        android:layout_marginTop="10dp"/>
+2
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjust Music valume"
+        android:id="@+id/maintextview2"
+        android:layout_below="@+id/mainseekbar1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainseekbar2"
+        android:layout_below="@id/maintextview2"
+        android:layout_marginTop="10dp"/>
+3
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjust Ringtone valume"
+        android:id="@+id/maintextview3"
+        android:layout_below="@+id/mainseekbar2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainseekbar3"
+        android:layout_below="@id/maintextview3"
+        android:layout_marginTop="10dp"/>
+4
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjust System volume"
+        android:id="@+id/maintextview4"
+        android:layout_below="@+id/mainseekbar3"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainseekbar4"
+        android:layout_below="@id/maintextview4"
+        android:layout_marginTop="10dp"/>
+5
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjust voice valume"
+        android:id="@+id/maintextview5"
+        android:layout_below="@+id/mainseekbar4"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainseekbar5"
+        android:layout_below="@id/maintextview5"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
